@@ -13,37 +13,62 @@ body{
 
 header{
     background: #ffffff;
-    padding: 50px;
+    padding: 50px 75px;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #cccccc;
+    height: 25px;
 }
 
 footer{
     background: #666666;
     padding: 25px;
-    border-style: solid;
+    border-top-style: solid;
     border-width: 5px;
-    border-top-color: #4aaaa5;
+    border-color: #4aaaa5;
     color: #ffffff;
-}
-
-img{
-    float: left;
-    content:200x200;
 }
 
 h1{
     float: left;
     background: #4aaaa5;
+    margin-bottom: 0px;
+    padding: 26px 50px;
     color: #ffffff;
     font-size: 24px;
 }
 
 h2{
+    text-align: left;
+    background: #ffffff;
+    width: 450px;
+    margin-left: 20px;
+    padding: 20px 30px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    font-size: 24px;
+    font: bold;
     color: #4aaaa5;
 
 }
 
 h3{
-    background: #4aaaa5;
+    text-align: left;
+    margin-bottom: 20px;
+    background: #ffffff;
+    width: 150px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    font-size: 18px;
+    font: bold;
+    color: #4aaaa5;
+}
+
+p{
+    text-align: left;
+    margin: 20px 10px 150px 190px;
 }
 
 nav{
@@ -59,30 +84,63 @@ a:hover{
     color: rgb(34, 31, 31)
 }
 
-section{
-    width: 500px;
-}
-
 .container{
     position: relative;
-    background-color: #ffffff;
-    border-top-color: #dddddd;
-    border-width: 5px;
-    width: ;
-    margin: ;
+    background-color: #ebe9e9;
+    text-align: center;
+    height: 500px;
 }
 
 .aside{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 50px;
+    right: 75px;
+    background: #ffffff;
     margin: ;
     border: ;
-    padding:  ;
+    padding:  60px 40px;
 }
 
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
+}
+
+#main-bio {
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    background: #ffffff;
+    height: 400px;
+    width: 550px;
+}
+
+#main-bio-image{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+#ghl{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 50px;
+}
+
+#lil{
+    margin-top: 15px;    
+    margin-bottom: 0px;    
+    height: 50px;
+    width: 50px;
+}
+
+#sol{
+    margin-top: 15px;    
+    margin-bottom: 0px;
+    height: 50px;
+    width: 50px;
 }
