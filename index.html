@@ -3,50 +3,48 @@
 
 <head>
     <meta charset="UTF-8">
-
-    <title>Na-Nate Feeney</title>
-
+    <title>About | Na-Nate Feeney</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body class="index">
-    <header>
-        <h1>Na-Nate Feeney</h1>
-
+<body>
+    <header id="main-header">
+        <div class="container">
+            <a href="index.html" id="nameBanner">Na-Nate Feeney</a>
             <nav>
                 <a href="index.html">About</a>
-                <a href="contact.html">Contact</a>
                 <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
             </nav>
+        </div>
     </header>
 
-    <div class="container clearfix">
+    <div id ="main-container" class="container">
+        <section class ="main-bio">
+            <h1>About Me</h1>
 
-        <section id ="main-bio">
+            <img class= "main-bio-image" src="assets/images/main-image.jpg" alt="Na-Nate">
 
-            <h2>About Me</h2>
-
-            <img id= "main-bio-image" src="./assets/images/main-image.jpg" alt="Na-Nate">
-
-            <p>
-                Na-Nate Feeney was born in Columbus, Ohio. In 2014, he received a Bachelor's of Arts in Cultural Anthropology from The Ohio State University. He currently lives in Central Florida, and studies Full Stack web development at the UCF Coding Bootcamp.
-            </p>
+            <p>Na-Nate Feeney was born in Columbus, Ohio. In 2014, he received a Bachelor's of Arts in Cultural Anthropology from The Ohio State University.</p>
+                
+            <p>He currently studies Full Stack Web Development at the UCF Coding Bootcamp.</p>
         </section>
 
-        <div class="aside">
-            <h3>Connect With Me</h3>
-            <img id="ghl" src="./assets/images/git_hub_logo.png" alt="GH">
-            <img id="lil" src="./assets/images/linked_in_logo.png" alt="LI">
-            <img id="sol" src="./assets/images/stack_overflow_logo.png" alt="SO">
-
-        </div>
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect With Me</h2>
+                <a href="https://github.com/cidgage"><img class="social" src="assets/images/git_hub_logo.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/na-nate-feeney-1ab4269b/"><img class="social" src="assets/images/linked_in_logo.png" alt="LinkedIn"></a>
+                <a href="https://stackoverflow.com/users/9213705/cidgage"><img class="social" src="assets/images/stack_overflow_logo.png" alt="Stack Overflow"></a>
+                <h3>nanate614@gmail.com</h3>
+            </div>
+        </section>
     </div>
 
 
-    <footer class="clearfix">
-
-        <h6>copyright 2018 Na-Nate Feeney</h6>
+    <footer>
+        <div class="footer">Copyright &copy; 2018 Na-Nate Feeney</div>
     </footer>
 </body>
 

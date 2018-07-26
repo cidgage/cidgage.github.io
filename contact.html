@@ -3,45 +3,59 @@
 
 <head>
     <meta charset="UTF-8">
-
-    <title>Na-Nate Feeney</title>
-
+    <title>Contact | Na-Nate Feeney</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body class="index">
-    <header>
-        <h1>Na-Nate Feeney</h1>
-
+<body>
+    <header id="main-header">
+        <div class="container">
+            <a href="index.html" id="nameBanner">Na-Nate Feeney</a>
             <nav>
                 <a href="index.html">About</a>
-                <a href="contact.html">Contact</a>
                 <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
             </nav>
+        </div>
     </header>
 
-    <div class="container clearfix">
+    <div id ="main-container" class="container">
+        <section class ="main-bio">
+            <h1>Contact</h1>
 
-        <section id ="main-bio">
-
-            <h2>Contact</h2>
-
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Full Name" required="required">
+                    </li>
+                    <li>
+                        <label for="name">Email</label>
+                        <input type="email" id="email" name="email" placeholder="emailaddress@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="name">Message</label>
+                        <textarea id="message" name="message" placeholder="Leave a Message!" required="required"></textarea>
+                    </li>
+                </ul>
+                <!-- <input type="submit"> -->
+            </form>
         </section>
 
-        <div class="aside">
-            <h3>Connect With Me</h3>
-            <img id="ghl" src="./assets/images/git_hub_logo.png" alt="GH">
-            <img id="lil" src="./assets/images/linked_in_logo.png" alt="LI">
-            <img id="sol" src="./assets/images/stack_overflow_logo.png" alt="SO">
-
-        </div>
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect With Me</h2>
+                <a href="https://github.com/cidgage"><img class="social" src="assets/images/git_hub_logo.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/na-nate-feeney-1ab4269b/"><img class="social" src="assets/images/linked_in_logo.png" alt="LinkedIn"></a>
+                <a href="https://stackoverflow.com/users/9213705/cidgage"><img class="social" src="assets/images/stack_overflow_logo.png" alt="Stack Overflow"></a>
+                <h3>nanate614@gmail.com</h3>
+            </div>
+        </section>
     </div>
 
-
-    <footer class="clearfix">
-
-        <h6>copyright 2018 Na-Nate Feeney</h6>
+    <footer>
+        <div id="footer">Copyright &copy; 2018 Na-Nate Feeney</div>
     </footer>
 </body>
 
